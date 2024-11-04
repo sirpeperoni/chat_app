@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  flutterchatapp:
+    image: flutterchatapp
+    build:
+      context: .
+      dockerfile: ./Dockerfile
